@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .info {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
