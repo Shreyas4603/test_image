@@ -21,12 +21,12 @@ function App() {
     { name: "src/grid_coords_3840x2160.png", width: 3840, height: 2160 },
   ];
 
-  const workingImage = images[6]; // Use index 2 as the working image
+  const workingImage = images[2]; // Use index 2 as the working image
   const originalSize = {
     width: workingImage.width,
     height: workingImage.height,
   };
-  const gravityThreshold = 100;
+  const gravityThreshold = 5;
 
   // Scale the clicked point to the original image size
   const scaleToOriginal = (x, y, currentSize) => {
